@@ -14,20 +14,24 @@ export default function QuickLinks() {
       <div className="p-4 flex justify-around items-center">
         {/* Moodle */}
         <div className="flex flex-col items-center">
-          <img
-            src="https://moodle.org/theme/moodleorg/pix/moodle_logo_TM.svg"
-            alt="Moodle"
-            className="w-16 h-16"
-          />
+           <a href="https://moodle.org/" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://moodle.org/theme/moodleorg/pix/moodle_logo_TM.svg"
+              alt="Moodle"
+              className="w-20 h-20"
+            />
+          </a>
         </div>
 
         {/* NITK Portal */}
         <div className="flex flex-col items-center">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/en/c/cc/NITK_Emblem.png"
-            alt="NITK Portal"
-            className="w-12 h-12"
-          />
+          <a href="https://www.nitk.ac.in/" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/c/cc/NITK_Emblem.png"
+              alt="NITK Portal"
+              className="w-16 h-16"
+            />
+          </a>
         </div>
 
       </div>

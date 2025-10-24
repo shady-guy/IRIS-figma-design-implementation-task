@@ -10,10 +10,10 @@ export default function Navbar() {
       <div className="bg-[#233953] w-full h-10 flex items-center justify-between px-8 text-white text-sm">
         {/* Left side */}
         <div className="flex items-center gap-10">
-          <a href="#" className="hover:underline">
+          <a href="https://about.iris.nitk.ac.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">
             About IRIS
           </a>
-          <a href="#" className="hover:underline">
+          <a href="https://blog.iris.nitk.ac.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">
             IRIS Blog
           </a>
         </div>
@@ -53,14 +53,14 @@ export default function Navbar() {
           </h1>
         </div>
 
-               {/* Right: Icons */}
+        {/* Right: Icons */}
         <div className="flex items-center gap-5">
           {/* Bell Icon */}
           <button className="text-gray-600 hover:text-blue-600 w-6 h-6 cursor-pointer">
             <Bell />
           </button>
           <img
-            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsoundcloud.com%2Fmusic-by-sergius%2Frick-astley-never-gonna-give-you-up-musicbysergius-remix&psig=AOvVaw3SWxai_3_7ce8zWzUIwne-&ust=1761334566779000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNC1vN2Iu5ADFQAAAAAdAAAAABAE"
+            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsoundcloud.com%2Fmusic-by-sergius%2Frick-astley-never-gonna-give-you-up-musicbysergius-remix&psig=AOvVaw3SWxai_3_7ce8zWzUIwne-&ust=17[...]
             alt="User"
             className="rounded-full border w-8 h-8"
           />

@@ -25,7 +25,7 @@ export default function Navbar() {
           <a href="#" className="hover:underline flex items-center gap-2">
             Terms of Service
             <ExternalLink className="w-4 h-4 text-white" />
-            <img src={csdIcon} alt="CSD Icon" className="w-5 h-5 filter brightness-0 invert" />
+            <img src={csdIcon} alt="CSD Icon" className="w-18 h-18 filter brightness-0 invert" />
           </a>
         </div>
       </div>
@@ -59,7 +59,7 @@ export default function Navbar() {
 
           {/* Profile Image */}
           <img
-            src="https://randomuser.me/api/portraits/men/78.jpg"
+            src="https://static.wikia.nocookie.net/fansekai/images/1/1d/HA_HA_HA_HA.jpg/revision/latest?cb=20220807225343"
             alt="User"
             className="rounded-full border w-8 h-8"
           />

@@ -1,6 +1,7 @@
 import { ExternalLink } from "lucide-react";
 import csdIcon from '../assets/images/csd_transparent.png';
 import irisLogo from '../assets/images/iris_logo.png';
+import { Bell } from "lucide-react";
 
 export default function Navbar() {
   return (

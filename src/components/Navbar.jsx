@@ -60,7 +60,7 @@ export default function Navbar() {
             <Bell />
           </button>
           <img
-            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsoundcloud.com%2Fmusic-by-sergius%2Frick-astley-never-gonna-give-you-up-musicbysergius-remix&psig=AOvVaw3SWxai_3_7ce8zWzUIwne-&ust=17[...]
+            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsoundcloud.com%2Fmusic-by-sergius%2Frick-astley-never-gonna-give-you-up-musicbysergius-remix&psig=AOvVaw3SWxai_3_7ce8zWzUIwne-&ust=1761334566779000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNC1vN2Iu5ADFQAAAAAdAAAAABAE"
             alt="User"
             className="rounded-full border w-8 h-8"
           />

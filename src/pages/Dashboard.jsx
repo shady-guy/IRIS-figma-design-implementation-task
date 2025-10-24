@@ -24,8 +24,8 @@ export default function Dashboard() {
           </div>
 
           {/* My Courses Title */}
-          <h3 className="text-lg font-semibold mb-3 inline-block bg-[#6770D2] text-white px-2 py-1 rounded">
-            My Courses
+          <h3 className="text-lg font-semibold mb-3 inline-block bg-[#6770D2] text-white px-2 py-1 rounded w-fit">
+          My Courses
           </h3>
 
           {/* Courses Grid */}

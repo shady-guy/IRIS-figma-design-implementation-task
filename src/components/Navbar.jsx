@@ -56,13 +56,13 @@ export default function Navbar() {
         {/* Right: Icons */}
         <div className="flex items-center gap-5">
           {/* Bell Icon */}
-          <button className="text-gray-600 hover:text-blue-600 w-6 h-6 cursor-pointer">
+          <button className="text-gray-600 hover:text-blue-600 w-8 h-8 cursor-pointer">
             <Bell />
           </button>
           <img
-            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsoundcloud.com%2Fmusic-by-sergius%2Frick-astley-never-gonna-give-you-up-musicbysergius-remix&psig=AOvVaw3SWxai_3_7ce8zWzUIwne-&ust=1761334566779000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNC1vN2Iu5ADFQAAAAAdAAAAABAE"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFsBMY_bXnsZrAIr-O1_m82PnPzSl6QTmGKg&s"
             alt="User"
-            className="rounded-full border w-8 h-8"
+            className="rounded-full border w-12 h-12"
           />
         </div>
       </nav>

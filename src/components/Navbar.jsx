@@ -20,11 +20,11 @@ export default function Navbar() {
 
         {/* Right side */}
         <div className="flex items-center gap-10">
-          <a href="#" className="hover:underline flex items-center gap-3">
+          <a href="#" className="hover:underline flex items-center gap-3" style={{ marginRight: '10px' }}>
             Terms of Service
             <ExternalLink className="w-4 h-4 text-white" />
             {/* Use the local image */}
-            <img src={csdIcon} alt="CSD Icon" className="w-5 h-5" />
+            <img src={csdIcon} alt="CSD Icon" className="w-8 h-8 filter brightness-0 invert" />
           </a>
         </div>
       </div>
@@ -37,7 +37,7 @@ export default function Navbar() {
           <img
             src={irisLogo} // Replace text with the logo image
             alt="IRIS Logo"
-            className="w-12 h-12 object-contain rounded-md"
+            className="w-16 h-16 object-contain rounded-md"
           />
 
           {/* NITK Emblem */}
